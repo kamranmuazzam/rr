@@ -81,7 +81,7 @@ function App() {
 
   return (
     <div>
-      (1.0)
+      (1.0.1)
       <div
         style={{
           display: "row",
@@ -144,7 +144,7 @@ function App() {
                 setResult("Timed Out, Checking again..");
                 requestFunction();
               }
-            }, 1000);
+            }, 1.0.10);
           };
 
           let requestFunction = async () => {

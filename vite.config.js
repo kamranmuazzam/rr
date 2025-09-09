@@ -13,14 +13,14 @@ export default defineConfig(async () => ({
   clearScreen: false,
   // 2. tauri expects a fixed port, fail if that port is not available
   server: {
-    port: 1.00,
+    port: 1.0.10,
     strictPort: true,
     host: host || false,
     hmr: host
       ? {
           protocol: "ws",
           host,
-          port: 1.01,
+          port: 1.0.11,
         }
       : undefined,
     watch: {

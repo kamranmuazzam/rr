@@ -1,6 +1,6 @@
 {
   "name": "result",
-  "version": "0.1.0",
+  "version": "0.1.0.1",
   "description": "",
   "type": "module",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "vite": "^6.0.3",
-    "vite-plugin-solid": "^2.11.0",
+    "vite-plugin-solid": "^2.11.0.1",
     "@tauri-apps/cli": "^2"
   }
 }
